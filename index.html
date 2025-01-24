@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Emit a log</title>
+</head>
+
+<body>
+    <h1>Emit a log</h1>
+    <form action="emit_log_topic.php" method="post">
+        <p>
+            <label for="message">Log Message:</label><br>
+            <input type="text" name="message" id="message">
+        </p>
+        <p>
+            <label for="topic">Topic:</label>
+            <select name="topic" id="topic">
+                <option value="kernel">Kernel</option>
+                <option value="database">Database</option>
+                <option value="api">API</option>
+            </select>
+        </p>
+        <p>
+            <label for="severity">Severity:</label>
+            <select name="severity" id="severity">
+                <option value="info">Info</option>
+                <option value="warning">Warning</option>
+                <option value="error">Error</option>
+                <option value="critical">Critical</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Send">
+        </p>
+    </form>
+</body>
+
+</html>

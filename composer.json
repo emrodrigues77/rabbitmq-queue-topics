@@ -1,0 +1,14 @@
+{
+    "name": "emrodrigues77/rabbitmq-queue-hello-world",
+    "description": "PHP study with RabbitMQ",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eduardo Rodrigues",
+            "email": "eduardo.rodrigues@objective.com.br"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^3.2"
+    }
+}
