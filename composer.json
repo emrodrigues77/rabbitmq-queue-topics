@@ -1,11 +1,11 @@
 {
-    "name": "emrodrigues77/rabbitmq-queue-hello-world",
-    "description": "PHP study with RabbitMQ",
+    "name": "emrodrigues77/rabbitmq-queue-topics",
+    "description": "PHP simplest study on RabbitMQ routing queues, with a basic UI for emitting logs.",
     "type": "project",
     "authors": [
         {
             "name": "Eduardo Rodrigues",
-            "email": "eduardo.rodrigues@objective.com.br"
+            "email": "eduardo@eduardo.rodrigues.nom.br"
         }
     ],
     "require": {
